@@ -7,9 +7,9 @@
 body {
   font-family: "Ubuntu", sans-serif;
   color: rgba(255, 255, 255, 0.793);
-  background: #000; /* Fallback color if image doesn't load */
+  background: #000; 
   position: relative;
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+  overflow-x: hidden; 
   overflow-y: scroll;
 }
 
@@ -21,12 +21,12 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: url('../images/bg-grid.png');
-  background-size: cover;  /* Ensures the image covers the whole background */
-  background-repeat: no-repeat;  /* Prevents the image from repeating */
-  background-position: center;  /* Centers the image */
-  background-attachment: fixed;  /* Keeps the image fixed while scrolling */
-  opacity: 0.1; /* Adjust this value for more or less transparency */
-  z-index: -1; /* Keeps the background behind the content */
+  background-size: cover;  
+  background-repeat: no-repeat;  
+  background-position: center;  
+  background-attachment: fixed;  
+  opacity: 0.1; 
+  z-index: -1; 
 }
 
 /* Blob and Blur Effects */
@@ -43,7 +43,7 @@ body::before {
   filter: blur(12vmax);
   animation: rotate 20s infinite;
   opacity: 0.8;
-  z-index: 0; /* Behind the main content */
+  z-index: 0;
 }
 
 .container {
@@ -51,8 +51,9 @@ body::before {
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
-  position: relative; /* To ensure content is layered properly */
-  z-index: 2; /* Main content stays above the blob and blur */}
+  position: relative;
+  z-index: 2;
+}
 
 .header {
   padding: 2rem 3rem;
@@ -60,7 +61,7 @@ body::before {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  z-index: 20; /* Navbar stays above everything */
+  z-index: 20; 
 }
 
 .toggle-button {
@@ -191,12 +192,12 @@ body::before {
   padding: 50px;
   text-align: center;
   position: relative;
-  z-index: 3; /* Content stays above the effects */
+  z-index: 3; 
 }
 
 .page-heading {
   text-align: left;
-  font-size: 2rem; /* Responsive font size */
+  font-size: 2rem;
   color: white;
 }
 
@@ -217,21 +218,21 @@ body::before {
 
 @keyframes slide {
   0% { transform: translateX(0); }
-  5.5% { transform: translateX(0); }    /* First image */
+  5.5% { transform: translateX(0); }    
   15% { transform: translateX(-100%); }
-  20% { transform: translateX(-100%); }  /* Second image */
+  20% { transform: translateX(-100%); }  
   27.5% { transform: translateX(-200%); }
-  32.5% { transform: translateX(-200%); }  /* Third image */
+  32.5% { transform: translateX(-200%); }  
   40% { transform: translateX(-300%); }
-  45% { transform: translateX(-300%); }  /* Fourth image */
+  45% { transform: translateX(-300%); }  
   52.5% { transform: translateX(-400%); }
-  57.5% { transform: translateX(-400%); }  /* Fifth image */
+  57.5% { transform: translateX(-400%); }  
   65% { transform: translateX(-500%); }
-  70% { transform: translateX(-500%); }  /* Sixth image */
+  70% { transform: translateX(-500%); }  
   77.5% { transform: translateX(-600%); }
-  82.5% { transform: translateX(-600%); }  /* Seventh image */
+  82.5% { transform: translateX(-600%); }  
   95% { transform: translateX(-700%); }
-  100% { transform: translateX(-700%); }  /* Eighth image */
+  100% { transform: translateX(-700%); } 
 }
 
 
@@ -248,13 +249,13 @@ body::before {
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.1); /* Light transparent background */
-  backdrop-filter: blur(10px); /* Blurring effect behind the footer */
-  border-radius: 50px 50px 0 0; /* Rounded corners */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border to enhance the glass effect */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  border-radius: 50px 50px 0 0; ;
+  border: 1px solid rgba(255, 255, 255, 0.2); ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); ;
   color: white;
-  z-index: 3; /* Footer stays above the effects */
+  z-index: 3; ;
 }
 
 /* Left Column */
@@ -338,7 +339,7 @@ body::before {
   text-decoration: underline;
 }
 
-/* Media Queries */
+;
 @media only screen and (max-width: 768px) {
   .footer {
       flex-direction: column;
@@ -356,7 +357,7 @@ body::before {
   }
 }
 
-/* Media Queries for Responsive Design */
+;
 @media only screen and (max-width: 768px) {
   #blob{
     display: none;
@@ -373,7 +374,7 @@ body::before {
   }
 
   .corner-logo {
-    max-width: 15vw; /* Adjust for smaller screens */
+    max-width: 15vw; ;
     top: 10px;
     left: 10px;
   }
@@ -383,7 +384,7 @@ body::before {
   }
   
   .slider-master {
-      width: 90vw; /* Adjusts slider width on smaller screens */
+      width: 90vw; ;
   }
 
   .page-heading {

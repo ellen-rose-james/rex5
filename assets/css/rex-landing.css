@@ -55,8 +55,8 @@ body::before {
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
-  position: relative; /* To ensure content is layered properly */
-  z-index: 2; /* Main content stays above the blob and blur */
+  position: relative; 
+  z-index: 2; 
 }
 
 .header {
@@ -65,7 +65,7 @@ body::before {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  z-index: 20; /* Navbar stays above everything */
+  z-index: 20; 
 }
 
 .toggle-button {
@@ -193,7 +193,7 @@ body::before {
   padding: 50px;
   text-align: center;
   position: relative;
-  z-index: 3; /* Content stays above the effects */
+  z-index: 3; 
 }
 
 .hero-content {
@@ -220,15 +220,7 @@ body::before {
   z-index: 1;
 }
 
-/* .main-logo-blur{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 25px;
-    max-width: 100%;
-    height: auto;
-    z-index: 1;
-} */
+
 
 .event-description {
   color: #29d15b;
@@ -249,16 +241,16 @@ body::before {
   margin-right: 0;
   bottom: 12%;
   right: 0;
-  width: 50%; /* Adjust the size to cover half of the page */
+  width: 50%; 
   height: auto;
   min-height: calc(
     100vh - var(--footer-height)
-  ); /* Extends slightly beyond the footer */
+  ); 
   background-image: url("../images/bg_robot.png");
-  background-size: contain; /* Contain the image within the height */
+  background-size: contain; 
   background-repeat: no-repeat;
-  background-position: right bottom; /* Align to the top right */
-  z-index: 1; /* Keeps it behind the footer and content */
+  background-position: right bottom; 
+  z-index: 1; 
 }
 
 /* Landing Footer Section */
@@ -268,35 +260,35 @@ body::before {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: #ffffff1a; /* Light transparent background */
-  backdrop-filter: blur(10px); /* Blurring effect behind the footer */
+  background: #ffffff1a; 
+  backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 50px 50px 0 0; /* Rounded corners */
-  border: 1px solid #ffffff33; /* Light border to enhance the glass effect */
-  box-shadow: 0 4px 10px #0000004d; /* Slight shadow for depth */
+  border-radius: 50px 50px 0 0; 
+  border: 1px solid #ffffff33; 
+  box-shadow: 0 4px 10px #0000004d; 
   color: #f0f0e4;
-  height: var(--footer-height); /* Use the variable for height */
-  z-index: 3; /* Footer stays above the effects */
+  height: var(--footer-height);
+  z-index: 3;
 }
 
 .footer-awards {
   display: flex;
-  justify-content: center; /* Center the awards horizontally */
+  justify-content: center;
   align-items: center;
-  gap: 20px; /* Adjust spacing between awards */
+  gap: 20px;
   padding: 20px 0;
-  max-height: 30vh; /* Limit the awards section to not exceed half the viewport height */
+  max-height: 30vh;
 }
 
 .award-item {
   display: flex;
-  align-items: center; /* Align text and icons vertically */
+  align-items: center; 
   justify-content: center;
-  gap: 10px; /* Space between the icons and the text */
+  gap: 10px;
 }
 
 .leaf-icon {
-  height: 60px; /* Increased size of the leaf */
+  height: 60px; 
   width: auto;
 }
 
@@ -304,19 +296,19 @@ body::before {
   color: #f0f0e4;
   font-size: 14px;
   text-align: center;
-  display: block; /* Helps with aligning text correctly */
+  display: block; 
 }
 
 .location {
   display: flex;
-  align-items: center; /* Vertically align the icon and text */
-  margin-right: 50px; /* right margin */
+  align-items: center; 
+  margin-right: 50px; 
 }
 
 .location-icon {
   width: 25px;
   height: 25px;
-  margin-right: 10px; /* Space between the icon and the text */
+  margin-right: 10px; 
 }
 
 .location span {
@@ -353,20 +345,20 @@ body::before {
   }
 
   .leaf-icon {
-    width: 15%; /* Smaller leaf icons for mobile */
+    width: 15%; 
   }
 
   .award-text {
-    font-size: 2vw; /* Larger text for mobile */
+    font-size: 2vw; 
   }
 
   .footer-awards {
-    flex-direction: column; /* Stack awards vertically */
+    flex-direction: column; 
     gap: 15px;
   }
 
   .corner-logo {
-    max-width: 15vw; /* Adjust for smaller screens */
+    max-width: 15vw; 
     top: 10px;
     left: 10px;
   }
@@ -386,11 +378,11 @@ body::before {
   }
 
   .award-text {
-    font-size: 2.5vw; /* Further adjust text size */
+    font-size: 2.5vw; 
   }
 
   .leaf-icon {
-    width: 20%; /* Further scale down leaf icons */
+    width: 20%; 
   }
 
   .corner-logo {

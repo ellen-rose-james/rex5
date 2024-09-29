@@ -7,11 +7,10 @@
 body {
   font-family: "Ubuntu", sans-serif;
   color: rgba(255, 255, 255, 0.793);
-  background: #000; /* Fallback color if image doesn't load */
+  background: #000; 
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
-  /* cursor: url("../images/cursor-robot.png"), auto; */
 }
 
 body::before {
@@ -22,12 +21,12 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: url("../images/bg-grid.png");
-  background-size: cover; /* Ensures the image covers the whole background */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the image fixed while scrolling */
-  opacity: 0.1; /* Adjust this value for more or less transparency */
-  z-index: -1; /* Keeps the background behind the content */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed; 
+  opacity: 0.1; 
+  z-index: -1; 
 }
 
 /* Blob and Blur Effects */
@@ -44,24 +43,18 @@ body::before {
   filter: blur(12vmax);
   animation: rotate 20s infinite;
   opacity: 0.8;
-  z-index: 0; /* Behind the main content */
+  z-index: 0; 
 }
 
-/* #blur {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 1; 
-    backdrop-filter: blur(12vmax);
-} */
+
 
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
-  position: relative; /* To ensure content is layered properly */
-  z-index: 2; /* Main content stays above the blob and blur */
+  position: relative; 
+  z-index: 2; 
 }
 
 .header {
@@ -70,7 +63,7 @@ body::before {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  z-index: 20; /* Navbar stays above everything */
+  z-index: 20; 
 }
 
 .toggle-button {
@@ -200,7 +193,7 @@ body::before {
   padding: 50px;
   text-align: center;
   position: relative;
-  z-index: 3; /* Content stays above the effects */
+  z-index: 3; 
 }
 
 .event-title {
@@ -215,13 +208,13 @@ body::before {
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.1); /* Light transparent background */
-  backdrop-filter: blur(10px); /* Blurring effect behind the footer */
-  border-radius: 50px 50px 0 0; /* Rounded corners */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border to enhance the glass effect */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  border-radius: 50px 50px 0 0; 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   color: white;
-  z-index: 3; /* Footer stays above the effects */
+  z-index: 3; 
 }
 
 /* Left Column */
@@ -305,7 +298,6 @@ body::before {
   text-decoration: underline;
 }
 
-/* Media Queries */
 @media only screen and (max-width: 768px) {
   #blob {
     display: none;
@@ -332,11 +324,11 @@ body::before {
 
 @media only screen and (max-width: 900px) {
   .footer {
-    padding: 1rem; /* Adjust padding as needed */
+    padding: 1rem; 
   }
 
   .corner-logo {
-    max-width: 15vw; /* Adjust for smaller screens */
+    max-width: 15vw; 
     top: 10px;
     left: 10px;
   }
@@ -344,11 +336,11 @@ body::before {
 
 @media only screen and (max-width: 480px) {
   .footer {
-    padding: 0.8rem; /* Adjust padding for smaller screens */
+    padding: 0.8rem; 
   }
 
   .corner-logo {
-    max-width: 20vw; /* Adjust for smaller screens */
+    max-width: 20vw;
   }
 }
 
