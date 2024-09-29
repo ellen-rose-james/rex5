@@ -223,6 +223,7 @@
   flex: 1;
   margin-right: 40px;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .card-image img{
