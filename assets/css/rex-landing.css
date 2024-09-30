@@ -314,7 +314,6 @@ body::before {
 .location span {
   font-size: 20px;
   font-weight: 500;
-  text-decoration: none;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -322,6 +321,10 @@ body::before {
   color: #1b8b3b;
   font-size: 25px;
   transition: all 0.5s ease-in-out;
+}
+
+.location a{
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1672px) {
