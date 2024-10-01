@@ -21,19 +21,19 @@ closeButton.addEventListener('click', () => {
 
 
 // Menu Scroll Animation
-const nav = document.querySelector(".nav-menu");
+// const nav = document.querySelector(".nav-menu");
 
 
-window.onmousemove = e => {
-  const percent = e.clientY / window.innerHeight;
+// window.onmousemove = e => {
+//   const percent = e.clientY / window.innerHeight;
   
-  nav.animate({
-    transform: `translateY(${percent * nav.offsetHeight * -1}px)`
-  }, {
-    fill: "forwards",
-    duration: 4000
-  })
-}
+//   nav.animate({
+//     transform: `translateY(${percent * nav.offsetHeight * -1}px)`
+//   }, {
+//     fill: "forwards",
+//     duration: 4000
+//   })
+// }
 
 // Blob Effect
 const blob = document.getElementById("blob");
