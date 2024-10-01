@@ -323,6 +323,10 @@ body::before {
   transition: all 0.5s ease-in-out;
 }
 
+.location a{
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1672px) {
   .bg-robot {
     width: 946.55px;
