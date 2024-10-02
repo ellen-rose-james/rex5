@@ -55,8 +55,8 @@ body::before {
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
-  position: relative; 
-  z-index: 2; 
+  position: relative;
+  z-index: 2;
 }
 
 .header {
@@ -65,7 +65,7 @@ body::before {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  z-index: 20; 
+  z-index: 20;
 }
 
 .toggle-button {
@@ -125,7 +125,7 @@ body::before {
   width: 100%;
   height: 100%;
   background: #0000008c;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
   transition: right 0.5s ease-in-out;
   z-index: 10;
 }
@@ -193,7 +193,7 @@ body::before {
   padding: 50px;
   text-align: center;
   position: relative;
-  z-index: 3; 
+  z-index: 3;
 }
 
 .hero-content {
@@ -220,8 +220,6 @@ body::before {
   z-index: 1;
 }
 
-
-
 .event-description {
   color: #29d15b;
 
@@ -241,16 +239,14 @@ body::before {
   margin-right: 0;
   bottom: 12%;
   right: 0;
-  width: 50%; 
+  width: 50%;
   height: auto;
-  min-height: calc(
-    100vh - var(--footer-height)
-  ); 
+  min-height: calc(100vh - var(--footer-height));
   background-image: url("../images/bg_robot.png");
-  background-size: contain; 
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: right bottom; 
-  z-index: 1; 
+  background-position: right bottom;
+  z-index: 1;
 }
 
 /* Landing Footer Section */
@@ -260,12 +256,12 @@ body::before {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: #ffffff1a; 
-  backdrop-filter: blur(10px); 
+  background: #ffffff1a;
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 50px 50px 0 0; 
-  border: 1px solid #ffffff33; 
-  box-shadow: 0 4px 10px #0000004d; 
+  border-radius: 50px 50px 0 0;
+  border: 1px solid #ffffff33;
+  box-shadow: 0 4px 10px #0000004d;
   color: #f0f0e4;
   height: var(--footer-height);
   z-index: 3;
@@ -282,13 +278,13 @@ body::before {
 
 .award-item {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
 .leaf-icon {
-  height: 60px; 
+  height: 60px;
   width: auto;
 }
 
@@ -296,19 +292,19 @@ body::before {
   color: #f0f0e4;
   font-size: 14px;
   text-align: center;
-  display: block; 
+  display: block;
 }
 
 .location {
   display: flex;
-  align-items: center; 
-  margin-right: 50px; 
+  align-items: center;
+  margin-right: 50px;
 }
 
 .location-icon {
   width: 25px;
   height: 25px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .location span {
@@ -323,7 +319,7 @@ body::before {
   transition: all 0.5s ease-in-out;
 }
 
-.location a{
+.location a {
   text-decoration: none;
 }
 
@@ -349,20 +345,20 @@ body::before {
   }
 
   .leaf-icon {
-    width: 15%; 
+    width: 15%;
   }
 
   .award-text {
-    font-size: 2vw; 
+    font-size: 2vw;
   }
 
   .footer-awards {
-    flex-direction: column; 
+    flex-direction: column;
     gap: 15px;
   }
 
   .corner-logo {
-    max-width: 15vw; 
+    max-width: 15vw;
     top: 10px;
     left: 10px;
   }
@@ -382,11 +378,11 @@ body::before {
   }
 
   .award-text {
-    font-size: 2.5vw; 
+    font-size: 2.5vw;
   }
 
   .leaf-icon {
-    width: 20%; 
+    width: 20%;
   }
 
   .corner-logo {
