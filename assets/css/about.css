@@ -448,7 +448,7 @@
   
   @media only screen and (max-width: 900px) {
     .card-image img{
-      max-width: 100vw;
+      max-width: 80vw;
     height: auto;
     }
 
@@ -478,12 +478,13 @@
   
   @media only screen and (max-width: 480px) {
     .card-image img{
-      max-width: 100vw;
+      max-width: 80vw;
     height: auto;
     }
 
     .card-content{
       justify-content: center;
+      margin-left: 5%;
     }
       
     .content-head {
