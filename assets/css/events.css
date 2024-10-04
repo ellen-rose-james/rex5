@@ -244,10 +244,6 @@ body::before {
   border-radius: 10px;
 }
 
-.image-fill :hover
-{
-  width: 120%;
-}
 
 .box2 {
   grid-area: box2;
@@ -276,7 +272,7 @@ body::before {
 
 .bento-grid .box3 {
   grid-area: box3;
-  background-color: #06b1374f;
+  background-color: #06b1364f;
   padding: 0px;
   border-radius: 10px;
   border: 1px solid rgba(255, 253, 253, 0.644);
@@ -285,9 +281,7 @@ body::before {
   align-items: center;
   text-align: center;
   height: 100%;
-  position: relative;
 }
-
 
 .ticket-a {
   font-family: 'Ubuntu', sans-serif;
@@ -308,25 +302,9 @@ body::before {
   padding: 30px;
 }
 
-/* #arrow-icon
-{
-  visibility: hidden;
-  position:absolute;
-  width: 20px;
-  height: 20px;
-  right: 20px;
-  top: 20px;
-} */
-
-/* .box3:hover #arrow-icon
-{
-  visibility: visible;
-} */
-
 .ticket-a:hover{
   background-color: #f0f0e4;
   color: #06b136;
-  
 }
 
 
