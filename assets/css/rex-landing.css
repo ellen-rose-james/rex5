@@ -155,15 +155,14 @@ body::before {
 .nav-menu {
   display: flex;
   flex-direction: column;
-  /* margin-top: 20vh; */
-  margin: auto;
+  margin-top: 20vh;
   padding: clamp(2rem, 6vw, 8rem);
 }
 
 .link-menu {
   color: #ffffff5f;
   font-family: "Ubuntu", sans-serif;
-  font-size: clamp(2rem, 4vw, 8rem);
+  font-size: clamp(2rem, 6vw, 8rem);
   font-weight: 600;
   text-decoration: none;
   position: relative;
