@@ -43,7 +43,9 @@ body::before {
   filter: blur(12vmax);
   animation: rotate 20s infinite;
   opacity: 0.8;
-  z-index: 0; 
+  z-index: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 
