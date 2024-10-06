@@ -344,6 +344,7 @@ body::before {
 }
 
 
+
 @media only screen and (max-width: 768px) {
   .footer {
       flex-direction: column;
@@ -371,10 +372,14 @@ body::before {
     display: none;
   }
 
-  .footer-left{
+  .footer-left,
+  .footer-right,
+  .footer-map {
+    width: 100%;
+    margin-bottom: 1.5rem;
     margin-left: 0;
-    justify-content: center;
   }
+
 
   .social-icons{
     margin-left: 0;
