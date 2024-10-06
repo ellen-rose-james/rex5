@@ -422,6 +422,10 @@ body::before {
   text-decoration: underline;
 }
 
+.footer-map{
+  padding: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   #blob {
     display: none;
@@ -435,11 +439,13 @@ body::before {
   }
 
   .footer-left,
-  .footer-right {
+  .footer-right,
+  .footer-map {
     width: 100%;
     margin-bottom: 1.5rem;
     margin-left: 0;
   }
+
 
   .social-icons {
     justify-content: center;
@@ -490,11 +496,13 @@ body::before {
   }
 
   .footer-left,
-  .footer-right {
+  .footer-right,
+  .footer-map {
     width: 100%;
     margin-bottom: 1.5rem;
     margin-left: 0;
   }
+
 
   .social-icons {
     justify-content: center;
