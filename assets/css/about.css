@@ -340,7 +340,8 @@
     color: rgba(255, 255, 255, 0.8);
   }
   
-  /* Right Column */
+
+/* Right Column */
 .footer-right {
   width: 45%;
 }
@@ -370,6 +371,8 @@
 .footer-map{
   padding: 10px;
 }
+
+
 
   
  
