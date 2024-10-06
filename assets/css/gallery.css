@@ -339,6 +339,10 @@ body::before {
   text-decoration: underline;
 }
 
+.footer-map{
+  padding: 10px;
+}
+
 ;
 @media only screen and (max-width: 768px) {
   .footer {
@@ -347,10 +351,14 @@ body::before {
       padding: 1rem;
   }
 
-  .footer-left, .footer-right {
-      width: 100%;
-      margin-bottom: 1.5rem;
+  .footer-left,
+  .footer-right,
+  .footer-map {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
   }
+
 
   .social-icons {
       justify-content: center;
@@ -363,10 +371,14 @@ body::before {
     display: none;
   }
 
-  .footer-left{
+  .footer-left,
+  .footer-right,
+  .footer-map {
+    width: 100%;
+    margin-bottom: 1.5rem;
     margin-left: 0;
-    justify-content: center;
   }
+
 
   .social-icons{
     margin-left: 0;
