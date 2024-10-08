@@ -161,8 +161,9 @@ button:hover .star-6 {
   fill: #fffdef;
 }
 
-/* CA Button */
-.ca-button {
+/* Events */
+
+.ev-button {
   position: relative;
   padding: 12px 35px;
   background: #f0f0f0;
@@ -171,99 +172,6 @@ button:hover .star-6 {
   font-weight: 500;
   color: var(--color);
   border: 3px solid #f0f0f0;
-  border-radius: 8px;
-  box-shadow: 0 0 0 white;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.ca-button:hover {
-  background: #f0f0e4;
-  color: var(--color);
-  box-shadow: 0 0 25px white;
-}
-
-.ca-button:hover .star-1 {
-  position: absolute;
-  top: -80%;
-  left: -30%;
-  width: 25px;
-  height: auto;
-  filter: drop-shadow(0 0 10px #fffdef);
-  z-index: 2;
-}
-
-.ca-button:hover .star-2 {
-  position: absolute;
-  top: -25%;
-  left: 10%;
-  width: 15px;
-  height: auto;
-  filter: drop-shadow(0 0 10px #fffdef);
-  z-index: 2;
-}
-
-.ca-button:hover .star-3 {
-  position: absolute;
-  top: 55%;
-  left: 25%;
-  width: 5px;
-  height: auto;
-  filter: drop-shadow(0 0 10px #fffdef);
-  z-index: 2;
-}
-
-.ca-button:hover .stars {
-  display: block;
-  filter: drop-shadow(0 0 10px #fffdef);
-}
-
-.ca-button:hover .star-4 {
-  position: absolute;
-  top: 30%;
-  left: 80%;
-  width: 8px;
-  height: auto;
-  filter: drop-shadow(0 0 10px #fffdef);
-  z-index: 2;
-}
-
-.ca-button:hover .star-5 {
-  position: absolute;
-  top: 25%;
-  left: 115%;
-  width: 15px;
-  height: auto;
-  filter: drop-shadow(0 0 10px #fffdef);
-  z-index: 2;
-}
-
-.ca-button:hover .star-6 {
-  position: absolute;
-  top: 5%;
-  left: 60%;
-  width: 5px;
-  height: auto;
-  filter: drop-shadow(0 0 10px #fffdef);
-  z-index: 2;
-}
-
-.fil1 {
-  fill: #06b137;
-}
-
-/* Events */
-
-.ev-button {
-  position: relative;
-  padding: 12px 35px;
-  background: rgb(2, 78, 9);
-  font-family: "Ubuntu", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  color: white;
-  border: 3px solid rgb(2, 78, 9);
   border-radius: 8px;
   box-shadow: 0 0 0 white;
   transition: all 0.3s ease-in-out;
@@ -342,7 +250,7 @@ button:hover .star-6 {
   z-index: 2;
 }
 
-.fil0 {
-  fill: #f0f0f0;
+.fil1 {
+  fill: #06b137;
 }
 
