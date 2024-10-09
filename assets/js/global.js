@@ -2,14 +2,18 @@
 const menuButton = document.getElementById('menuButton');
 const menuOverlay = document.getElementById('menuOverlay');
 const closeButton = document.getElementById('closeButton');
+const blob = document.getElementById("blob");
 let menuOpen = false;
 
 menuButton.addEventListener('click', () => {
-    if (!menuOpen) {
-        document.body.classList.add('menu-open');
+  if (!menuOpen) {
+    window.scrollTo(0,0);
+    document.querySelector('body').style.overflowY='hidden';
+    document.body.classList.add('menu-open');
         menuOpen = true;
     } else {
         document.body.classList.remove('menu-open');
+        document.querySelector('body').style.overflowY='scroll';
         menuOpen = false;
     }
 });
@@ -21,7 +25,7 @@ closeButton.addEventListener('click', () => {
 
 
 // Blob Effect
-const blob = document.getElementById("blob");
+
 
 window.onpointermove = event => { 
   const { clientX, clientY } = event;

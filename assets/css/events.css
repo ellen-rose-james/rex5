@@ -359,7 +359,7 @@ body::before {
   display: flex;
   gap: 20px;
   margin-bottom: 2rem;
-  margin-left: 3rem;
+  margin-left: 0rem;
 }
 
 .social-icons a .fab {

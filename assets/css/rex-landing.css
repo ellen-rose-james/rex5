@@ -35,6 +35,7 @@ body::before {
 
 /* Blob and Blur Effects */
 #blob {
+  visibility: visible;
   background-color: #f0f0e4;
   height: 24vmax;
   aspect-ratio: 1;
@@ -366,6 +367,10 @@ body::before {
 
 @media only screen and (max-width: 480px) {
   .bg-robot {
+    display: none;
+  }
+  #blob
+  {
     display: none;
   }
   .hero-content {
