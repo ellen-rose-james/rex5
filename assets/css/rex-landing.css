@@ -238,17 +238,48 @@ body::before {
 .bg-robot {
   position: absolute;
   margin-right: 0;
-  bottom: 12%;
-  right: 0;
-  width: 50%;
-  height: auto;
-  min-height: calc(100vh - var(--footer-height));
+  top: 5rem;
+  right: 2rem;
+  width: 30rem;
+  height: 30rem;
+  /* min-height: calc(100vh - var(--footer-height)); */
   background-image: url("../images/bg_robot.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
-  z-index: 1;
+  z-index: 0;
 }
+
+.video-container {
+  position: relative;
+  width: 90%; /* or specific width */
+  /* max-width: 800px; example max width */
+  margin: auto; /* center the container */
+}
+
+.video {
+  width: 100%;
+  display: block; /* ensures no gap below video */
+}
+
+.top-backdrop, .bottom-backdrop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50px; /* adjust height as needed */
+  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent); /* adjust colors */
+  z-index: 1; /* above the video */
+}
+
+.top-backdrop {
+  top: 0;
+}
+
+.bottom-backdrop {
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent); /* for bottom */
+}
+
 
 /* Landing Footer Section */
 
