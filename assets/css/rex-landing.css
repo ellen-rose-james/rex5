@@ -237,7 +237,7 @@ body::before {
 /* Robot Background Image */
 .bg-robot {
   position: absolute;
-  margin-right: 3rem;
+  margin-right: 8rem;
   margin-top: 3rem;
   top: 5rem;
   right: 2rem;
