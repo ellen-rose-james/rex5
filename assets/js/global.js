@@ -64,3 +64,13 @@ window.onpointermove = event => {
 //   isPlaying = true;
 //   musicToggleButton.textContent = "❚❚"; // Change to pause icon when music starts playing
 // });
+
+
+// Popup
+window.onload = function() {
+  document.getElementById("popup").style.display = "flex";
+};
+
+document.getElementById("closePopup").onclick = function() {
+  document.getElementById("popup").style.display = "none";
+};
