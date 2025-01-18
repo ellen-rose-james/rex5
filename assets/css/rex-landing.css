@@ -296,16 +296,18 @@ body::before {
   z-index: 0;
 }
 
+
+/* video */
 .video-container {
   position: relative;
-  width: 90%; /* or specific width */
-  /* max-width: 800px; example max width */
-  margin: auto; /* center the container */
+  width: 90%; 
+  
+  margin: auto; 
 }
 
 .video {
   width: 100%;
-  display: block; /* ensures no gap below video */
+  display: block; 
 }
 
 .top-backdrop, .bottom-backdrop {
